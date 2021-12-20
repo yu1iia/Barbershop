@@ -42,6 +42,12 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+
+  &:hover,
+  &:focus {
+    font-weight: 700;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+  }
 }
 
 .modal-form {
@@ -79,6 +85,7 @@
     border-radius: 4px;
     resize: none;
     margin-bottom: 40px;
+    padding: 10px;
   }
 
   &__svg-icon {
@@ -120,6 +127,7 @@
     text-transform: uppercase;
     color: #ffffff;
     padding: 12px;
+    margin: 35px auto 0px;
     min-width: 160px;
     height: 40px;
     border: 1px solid #ff6c00;

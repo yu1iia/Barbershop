@@ -1,0 +1,30 @@
+.title {
+  font-family: $secondary-font;
+  @include font(700, 28px, 33px);
+  letter-spacing: 0.05em;
+
+  &-dark-theme {
+    color: $title-dark-theme-color;
+  }
+
+  &-light-theme {
+    color: $title-light-theme-color;
+  }
+
+  .about &,
+  .achievements & {
+    margin-bottom: 20px;
+  }
+
+  .services &,
+  .masters &,
+  .contact__wrapper & {
+    margin-bottom: 44px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .title {
+    @include font(700, 42px, 49px);
+  }
+}

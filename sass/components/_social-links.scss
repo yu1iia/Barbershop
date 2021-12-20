@@ -1,0 +1,43 @@
+.social-links {
+  display: flex;
+  align-items: center;
+
+  &::before {
+    display: inline-block;
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: #303030;
+    flex-shrink: 0;
+    margin-right: 40px;
+  }
+
+  &__element {
+    &:not(:last-child) {
+      margin-right: 40px;
+    }
+  }
+}
+
+.social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.364;
+  letter-spacing: 0.2em;
+  color: #303030;
+  transition: color 250ms linear;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .social-links {
+    .hero__left-side & {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+    }
+  }
+}

@@ -73,7 +73,7 @@
               </li>
             </ul>
           </div>
-          <div class="hero-right-side">
+          <div class="hero__right-side">
             <p class="subtitle subtitle-dark-theme" lang="en">
               A hair salon for men in Kyiv
             </p>
@@ -158,7 +158,7 @@
               Если ты хочешь добавить в свой образ больше уверенности – тебе
               точно к нам.
             </p>
-            <p class="about-text">
+            <p class="about__text">
               Мы команда, которая никогда не останавливается на достигнутом и
               жаждет перемен. И когда ты попадешь в руки нашего мастера, то уже
               никогда не сможешь быть прежним. Мы команда, которая всегда с
@@ -197,6 +197,8 @@
                 <span class="services__list-name">Бритье опасной бритвой</span
                 ><span class="services__list-price">от 200 грн.</span>
               </li>
+            </ul>
+            <ul class="services__list list">
               <li class="services__list-element">
                 <span class="services__list-name">Cтрижка у стажера</span
                 ><span class="services__list-price">от 50 грн.</span>
@@ -225,7 +227,7 @@
       <section class="section achievements">
         <div class="container">
           <div class="achievements-left-side">
-            <ul class="acievements__list list">
+            <ul class="achievements__list list">
               <li class="achievements__list-element">
                 <p class="achievements__list-count">600</p>
                 <p class="achievements__list-description">
@@ -252,7 +254,7 @@
               </li>
             </ul>
           </div>
-          <div class="achievements-right-side">
+          <div class="achievements__right-side">
             <p class="subtitle subtitle-light-theme">
               старая традиционная школа
             </p>
@@ -275,48 +277,50 @@
             для настоящих ценителей атмосферы
           </p>
           <h2 class="title title-light-theme">Наши мастера</h2>
-          <ul class="masters__list-element">
-            <img
-              class="masters__list-img"
-              src="./images/masters/master-1.jpg"
-              alt="мастер стрижет клиента"
-              width="370"
-              height="346"
-            />
-            <div class="masters__list-content">
-              <h3 class="masters__list-name" lang="en">John Smith</h3>
-              <p class="masters__list-position" lang="en">Extreme Barber</p>
-              <ul class="social__list list">
-                <li class="social__list-element">
-                  <a class="social__list-link" href="">
-                    <svg class="social__list-svg">
-                      <use href="./images/sprite.svg#instagram"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__list-element">
-                  <a class="social__list-link" href="">
-                    <svg class="social__list-svg">
-                      <use href="./images/sprite.svg#twitter"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__list-element">
-                  <a class="social__list-link" href="">
-                    <svg class="social__list-svg">
-                      <use href="./images/sprite.svg#facebook"></use>
-                    </svg>
-                  </a>
-                </li>
-                <li class="social__list-element">
-                  <a class="social__list-link" href="">
-                    <svg class="social__list-svg">
-                      <use href="./images/sprite.svg#linkedin"></use>
-                    </svg>
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <ul class="masters__list list">
+            <li class="masters__list-element">
+              <img
+                class="masters__list-img"
+                src="./images/masters/master-1.jpg"
+                alt="мастер стрижет клиента"
+                width="370"
+                height="346"
+              />
+              <div class="masters__list-content">
+                <h3 class="masters__list-name" lang="en">John Smith</h3>
+                <p class="masters__list-position" lang="en">Extreme Barber</p>
+                <ul class="social__list list">
+                  <li class="social__list-element">
+                    <a class="social__list-link" href="">
+                      <svg class="social__list-svg">
+                        <use href="./images/sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__list-element">
+                    <a class="social__list-link" href="">
+                      <svg class="social__list-svg">
+                        <use href="./images/sprite.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__list-element">
+                    <a class="social__list-link" href="">
+                      <svg class="social__list-svg">
+                        <use href="./images/sprite.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social__list-element">
+                    <a class="social__list-link" href="">
+                      <svg class="social__list-svg">
+                        <use href="./images/sprite.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
             <li class="masters__list-element">
               <img
                 class="masters__list-img"
@@ -492,7 +496,7 @@
 
         <!--Contact information-->
 
-        <section class="contact-information">
+        <section class="contact__information">
           <h2 class="title title-dark-theme">Контакты</h2>
           <address class="address">
             <ul class="contact__list list">
@@ -512,7 +516,7 @@
                 <svg class="contact__list-element-svg">
                   <use href="./images/sprite.svg#phone"></use>
                 </svg>
-                <a class="contact-list-link link" href="tel:+380441111111"
+                <a class="contact__list-link link" href="tel:+380441111111"
                   >+38 044 111 11 11</a
                 >
               </li>
@@ -529,7 +533,7 @@
             </ul>
           </address>
           <p class="subtitle subtitle-dark-theme">время работы</p>
-          <p class="contact-date">Ежедневно с 9:00 до 22:00</p>
+          <p class="contact__date">Ежедневно с 9:00 до 22:00</p>
         </section>
       </div>
     </main>

@@ -1,0 +1,41 @@
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.02em;
+
+  &-dark-theme {
+    color: $description-dark-theme-color;
+  }
+
+  &-light-theme {
+    color: $description-light-theme-color;
+  }
+
+  .hero & {
+    max-width: 290px;
+  }
+
+  .about & {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description {
+    .hero & {
+      max-width: 360px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .description {
+    font-size: 18px;
+    line-height: 1.667;
+
+    .hero & {
+      max-width: 400px;
+    }
+  }
+}
